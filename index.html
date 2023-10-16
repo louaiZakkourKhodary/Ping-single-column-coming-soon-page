@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./images/logo.svg" />
+      </div>
+    </header>
+    <div class="ping-header">
+      <h1 class="ping-primary">We are launching <strong> soon!</strong></h1>
+      <p class="ping-text">Subscribe and get notified</p>
+    </div>
+    <div class="ping-inputs">
+      <!-- <form class="email">
+        <input
+          class="ping-input"
+          type="email"
+          placeholder="Your Email Address"
+        />
+        <button class="ping-button" type="submit">Notify Me</button>
+        <p id="error" style="color: red; display: none">
+          Please enter a valid email
+        </p>
+      </form> -->
+      <form class="email" id="emailForm">
+        <input
+          type="email"
+          class="ping-input"
+          placeholder="Your Email Address"
+          id="emailInput"
+        />
+        <button type="submit" class="ping-button">Notify Me</button>
+        <p id="error" style="color: red; display: none">
+          Please enter a valid email
+        </p>
+      </form>
+    </div>
+    <div class="img">
+      <img src="./images/illustration-dashboard.png" />
+    </div>
+    <ul class="socials">
+      <li>
+        <a href="#">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+    <footer>
+      <p class="footer-text">&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+    <!-- -->
+    <script src="app.js"></script>
+  </body>
+</html>
